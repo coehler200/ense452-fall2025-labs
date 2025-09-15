@@ -1,15 +1,7 @@
----
-marp: true
-theme: default
-paginate: true
-title: Git Tutorial
-author: Trevor Douglas
----
-
 # ENSE 452
 ### Embedded and Real-Time Software Systems - Laboratory
 
-👨‍💻 SSE Lab Instructor: [Trevor Douglas](mailto:trevor.douglas@uregina.ca)
+Lab Instructor: Cameron Oehler
 
 ---
 
@@ -29,7 +21,7 @@ What possibly is new?
 ---
 
 
-Many documents are available on urcourses, under Class Resources in the ARM STMicro Docs folder.  Some of the most useful are listed below. There may be updated versions of these documents available online, which you are welcome to substitute.
+Many documents are available on urcourses, under Resources in the STMicro folder.  Some of the most useful are listed below. There may be updated versions of these documents available online, which you are welcome to substitute.
 
 - STM32CubeIDEUserManual: UM2609
 -  STM32 Programmer's Manual: PM0056
@@ -43,7 +35,7 @@ Our target board is the Nucleo-64, and it has a lot of fun peripherals. The brai
 ### Equipment and Software Requirements}
 
 - PC for development.
-- STM32CubeIDE Software (I am using Windows).
+- STM32CubeIDE Software.
 - Nucleo-64 development kit and USB Serial cable.
 - Git (Git client or use command line).
 
@@ -59,8 +51,8 @@ The objective of this lab is to get you started using the STM32CubeIDE and progr
 Blinky!  (The hello world of embedded)
 
 - Demonstration !!
-- Also create an account on your favorite GIT hosting site (bitbucket or github).  For instance you may name your repository enel452YourName''.  Make sure this repo is private and that you allow the professor, myself and TA's access.
-- Clone your repository and put all your labs in a subdirectory and you can submit all your assignments under an assignments subdirectory.  Projects in this class will also have their own subdirectory.
+- Also create an account on GitHub.  For instance you may name your repository enel452YourName. Make sure this repo is private and that you allow myself access.
+- Clone your repository and put all your labs in a subdirectory. Projects in this class will also have their own subdirectory.
 - Start the STM32CubeIDE software and create a new STM32 project.
 - Search and Select our Nucleo-64 board.
 - Initiate all peripherals with their default mode.
