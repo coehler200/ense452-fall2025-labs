@@ -40,6 +40,12 @@ Our target board is the Nucleo-64, and it has a lot of fun peripherals. The brai
 - Git (Git client or use command line).
 
 
+### Hardware Abstraction Layer (HAL)
+The Cortex Microcontroller Software Interface Standard (CMSIS) is a vendor-independent hardware abstraction layer for microcontrollers that are based on Arm® Cortex® processors. It defines generic tool interfaces and enables consistent device support. Its software interfaces simplify software re-use, reduce the learning curve for microcontroller developers, and improve time to market for new devices.
+![](Hal.png)
+
+
+
 ## Objective
 
 The objective of this lab is to get you started using the STM32CubeIDE and program the Nucleo-64 board to understand how to develop software for this target. You will also put your project under source control (revision control). First you'll get the LED on the board to blink at a certain rate. As you build your code make sure to commit changes and push to your repository as that is where your code will be evaluated.
