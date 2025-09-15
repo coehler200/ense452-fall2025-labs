@@ -79,5 +79,5 @@ Now that you can control the light you will get rid of this blocking delay funct
 - Based on this, set the pre-scaler to any desired number and get the light to blink every 1 second.
 
 ### What To Submit
-On URCourses put the link to your git repository in the submission link.  The TA will checkout the version (date) submitted at the
+On URCourses put the link to your git repository in the submission link.  I will checkout the version (date) submitted at the
 deadline.  
