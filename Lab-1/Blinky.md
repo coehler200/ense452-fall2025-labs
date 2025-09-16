@@ -75,8 +75,13 @@ Now that you can control the light you will get rid of this blocking delay funct
 - Under the Pinout and Configuration Tab open the Timers section for the Categories
 - Enable Timer 4 by selecting the Internal Clock.  Notice that you can configure the parameters for the clock below in the Parameter Settings such as prescaler etc.
 - Now Open the Clock Configuration tab (Up above beside the Pinout & Configuration tab).  Notice the clock speed for APB1.
-- Consult the HAL documentation to get the timer started and to read it's current value.  HAL_TIM_Base_Start() and the macro HAL_TIM_GET_COUNTER().  You need to pass in the handler for this timer which is given to you when you generate the code.
+- Consult the HAL documentation to get the timer started and to read it's current value.  HAL_TIM_Base_Start() and the macro __HAL_TIM_GET_COUNTER().  You need to pass in a pointer to the handler for this timer which is given to you when you generate the code.
 - Based on this, set the pre-scaler to any desired number and get the light to blink every 1 second.
+- The following methods may prove useful in completing this assignment (though depending on how you choose to approach this assignment, you may not use all of them):
+    - HAL_TIM_Base_Start()
+    - __HAL_TIM_GET_COUNTER()
+    - __HAL_TIM_SET_COUNTER()
+    - __HAL_TIM_CLEAR_IT() <- needed if you decide to use __HAL_TIM_SET_COUNTER()
 
 ### What To Submit
 On URCourses put the link to your git repository in the submission link.  I will checkout the version (date) submitted at the
